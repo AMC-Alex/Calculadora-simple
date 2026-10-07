@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* Contenedor principal */
+
+.main-content {
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+
+.main-content > div:first-child {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #333;
+}
+
+/* Operaciones */
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.operations button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.operations button:hover {
+  background: #555;
+}
+
+.operations button:active {
+  transform: scale(0.95);
+}
+
+/* Resultado */
+
+.result {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f2f2f2;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Botón limpiar */
+
+#btnClear {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #ddd;
+  color: #222;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#btnClear:hover {
+  background: #ccc;
+}
+
+#btnClear:active {
+  transform: scale(0.98);
+}

@@ -30,24 +30,6 @@ calculadora/
 └── README.md
 ```
 
-## Cómo ejecutar el proyecto
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/TU-USUARIO/calculadora.git
-```
-
-2. Entra en la carpeta del proyecto:
-
-```bash
-cd calculadora
-```
-
-3. Abre `index.html` en tu navegador.
-
-También puedes utilizar **Live Server** desde Visual Studio Code.
-
 ## Objetivo
 
 Este proyecto fue creado para practicar y reforzar conceptos fundamentales de JavaScript, como:
